@@ -1,4 +1,4 @@
-# test-v1
+# Test-v1
 
 Task given:
 ----------------
@@ -61,9 +61,9 @@ Pre-requsites
     
   - add required values on file - terraform.tfvars and backend.tf on main directory to provision the aws eks cluster
    
-    $ terraform init    
+    $  terraform init    
         
-    $ terraform plan
+    $  terraform plan
     
     
     $ terraform apply
