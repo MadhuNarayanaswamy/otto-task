@@ -1,0 +1,23 @@
+aws_region = "us-east-1"
+stage = "prod" #profile
+vpc_cidr = "10.0.0.0/16"
+pr-us-east-1a_subnet_cidr_block = "10.0.0.0/19"
+az-us-east-1a = "us-east-1a"
+pr-us-east-1b_subnet_cidr_block = "10.0.32.0/19"
+az-us-east-1b = "us-east-1b"
+pu-us-east-1a_subnet_cidr_block = "10.0.64.0/19"
+pu-us-east-1b_subnet_cidr_block = "10.0.96.0/19"
+node_group_0 = "private-nodes_0"
+node_group_1 = "private-nodes_1"
+eks_cluster_name = "demo"
+pn0-instance_types = ["t2.micro"]
+pn0-desired_size = 3
+pn0-max_size = 5
+pn0-min_size = 2
+pn0-max_unavailable = 2
+pn1-instance_types = ["t2.micro"]
+pn1-desired_size = 3
+pn1-max_size = 3
+pn1-min_size = 2
+pn1-max_unavailable = 2
+
